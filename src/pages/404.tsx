@@ -1,6 +1,6 @@
-import React from "react";
-import Link from "next/link";
-import Head from "next/head";
+import React from 'react';
+import Link from 'next/link';
+import Head from 'next/head';
 const NotFound = () => {
   return (
     <>
@@ -15,7 +15,7 @@ const NotFound = () => {
             Clique no botão abaixo para ser redirecionado para à Pagina Inicial
           </span>
         </div>
-        <Link href="/">Ir para página inicial</Link>
+        <Link href='/'>Ir para página inicial</Link>
       </div>
     </>
   );

@@ -1,6 +1,5 @@
-import AboutMe from "@/components/Home/AboutMe";
-import Head from "next/head";
-import Link from "next/link";
+import AboutMe from '@/components/Home/AboutMe';
+import Head from 'next/head';
 
 const Home = () => {
   return (
@@ -8,8 +7,8 @@ const Home = () => {
       <Head>
         <title>Sobre mim | Walber</title>
         <meta
-          name="description"
-          content="Sou um desenvolvedor frontend abaixonado pela criação de interfaces"
+          name='description'
+          content='Sou um desenvolvedor frontend abaixonado pela criação de interfaces'
         />
       </Head>
       <div>

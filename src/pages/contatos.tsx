@@ -1,5 +1,5 @@
-import React from "react";
-import Head from "next/head";
+import React from 'react';
+import Head from 'next/head';
 
 const Contatos = () => {
   return (
@@ -13,13 +13,13 @@ const Contatos = () => {
           <li>
             <span>E-mail</span>
             <div>
-              <a href="mailto:walber123k@hotmail.com">walber123k@hotmail.com</a>
+              <a href='mailto:walber123k@hotmail.com'>walber123k@hotmail.com</a>
             </div>
           </li>
           <li>
             <span>Linkedin</span>
             <div>
-              <a href="https://www.linkedin.com/in/walber-martins/">
+              <a href='https://www.linkedin.com/in/walber-martins/'>
                 https://www.linkedin.com/in/walber-martins/
               </a>
             </div>
@@ -27,7 +27,7 @@ const Contatos = () => {
           <li>
             <span>GitHub</span>
             <div>
-              <a href="https://github.com/guiness333">
+              <a href='https://github.com/guiness333'>
                 https://github.com/guiness333
               </a>
             </div>
