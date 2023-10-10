@@ -2,9 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
-main, body {
+main,
+body {
   background-color: #343434;
   color: white;
-  font-size: 2rem;
 }
