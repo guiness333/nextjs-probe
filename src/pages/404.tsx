@@ -1,21 +1,33 @@
 import React from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
+import { Roboto } from 'next/font/google';
+
+const roboto = Roboto({
+  subsets: ['latin'],
+  weight: '500',
+});
+
 const NotFound = () => {
   return (
     <>
       <Head>
         <title>Página não encontrada | Walber</title>
       </Head>
-      <div>
-        <h1>404</h1>
-        <div>
-          <p>Oops, não conseguimos encontrar essa página!</p>
+      <div className='flex flex-col text-center mt-12 md:mt-24 gap-8 px-6 md:px-32 items-center'>
+        <h1 className='text-7xl font-bold'>404</h1>
+        <p className='flex flex-col gap-8 md:gap-4 md:text-xl'>
+          <span>Oops, não conseguimos encontrar essa página!</span>
           <span>
             Clique no botão abaixo para ser redirecionado para à Pagina Inicial
           </span>
-        </div>
-        <Link href='/'>Ir para página inicial</Link>
+        </p>
+        <Link
+          href='/'
+          className={`${roboto.className} p-4 bg-w-blue-500 rounded-xl text-black mt-5 md:mt-12 w-fit md:text-xl`}
+        >
+          Ir para página inicial
+        </Link>
       </div>
     </>
   );
